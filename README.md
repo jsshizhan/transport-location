@@ -5,6 +5,7 @@ react-native link transport-location
 # android
 android/build.gradle
 
+# code
 allprojects{
 
     flatDir{
@@ -13,15 +14,16 @@ allprojects{
 }
 
 AndroidManifest.xml
-
+# code
 <meta-data
         android:name="com.amap.api.v2.apikey"
         android:value="{你的高德key}" />
 
 MainActivity.java
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        TransportLocationUtil.setContext(this);
+# code
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    TransportLocationUtil.setContext(this);
 
-    }
+}
