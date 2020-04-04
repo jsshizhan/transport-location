@@ -1,0 +1,23 @@
+{
+  "name": "transport-location",
+  "version": "0.0.4",
+  "description": "部网络货运信息交互系统位置信息上报",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsshizhan/transport-location.git"
+  },
+  "keywords": [
+    "react",
+    "native"
+  ],
+  "author": "shizhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsshizhan/transport-location/issues"
+  },
+  "homepage": "https://github.com/jsshizhan/transport-location#readme"
+}
