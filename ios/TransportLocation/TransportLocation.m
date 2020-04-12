@@ -5,9 +5,8 @@
 //  Created by shizhan on 2020/4/6.
 //  Copyright © 2020 云墨科技. All rights reserved.
 //
-#import <React/RCTBridgeModule.h>
 #import "TransportLocation.h"
-#import <MapManagerLocation/MapManager.h>
+#import <MapManager/MapManager.h>
 
 
 @implementation TransportLocation
