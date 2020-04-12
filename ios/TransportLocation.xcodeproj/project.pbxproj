@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5474199DDD8AE39B9852D2 /* libPods-TransportLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB82C596F220C7349B52168 /* libPods-TransportLocation.a */; };
+		6D367110244338100062E0BC /* libyoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D36703B24425F3A0062E0BC /* libyoga.a */; };
+		6D367111244338140062E0BC /* libMapManagerLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D36702C244255EC0062E0BC /* libMapManagerLocation.a */; };
+		6D3671192443383E0062E0BC /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3671182443383E0062E0BC /* libReact.a */; };
 		6D78007D243B0FA800149E1D /* TransportLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D78007C243B0FA800149E1D /* TransportLocation.m */; };
 		6D78007E243B0FA800149E1D /* TransportLocation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6D78007B243B0FA800149E1D /* TransportLocation.h */; };
 /* End PBXBuildFile section */
@@ -33,7 +37,7 @@
 			remoteGlobalIDString = 1FA65622A09E4E5504F80B3610AB78F1;
 			remoteInfo = yoga;
 		};
-		6D3670D32442BAB70062E0BC /* PBXContainerItemProxy */ = {
+		6D3671172443383E0062E0BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6D367025244255EC0062E0BC /* Pods.xcodeproj */;
 			proxyType = 2;
@@ -70,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3671192443383E0062E0BC /* libReact.a in Frameworks */,
+				6D367111244338140062E0BC /* libMapManagerLocation.a in Frameworks */,
+				6D367110244338100062E0BC /* libyoga.a in Frameworks */,
+				1F5474199DDD8AE39B9852D2 /* libPods-TransportLocation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +97,7 @@
 			children = (
 				6D36702C244255EC0062E0BC /* libMapManagerLocation.a */,
 				6D36702E244255EC0062E0BC /* libPods-TransportLocation.a */,
-				6D3670D42442BAB70062E0BC /* libReact.a */,
+				6D3671182443383E0062E0BC /* libReact.a */,
 				6D36703B24425F3A0062E0BC /* libyoga.a */,
 			);
 			name = Products;
@@ -213,11 +221,11 @@
 			remoteRef = 6D36703A24425F3A0062E0BC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D3670D42442BAB70062E0BC /* libReact.a */ = {
+		6D3671182443383E0062E0BC /* libReact.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libReact.a;
-			remoteRef = 6D3670D32442BAB70062E0BC /* PBXContainerItemProxy */;
+			remoteRef = 6D3671172443383E0062E0BC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -378,6 +386,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"\"${PODS_ROOT}/MapManagerLocation\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../ios/Pods/Headers/Public/**",
@@ -406,6 +415,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"\"${PODS_ROOT}/MapManagerLocation\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../ios/Pods/Headers/Public/**",

@@ -1,0 +1,27 @@
+
+platform :ios, '10.0'
+
+target 'TransportLocation' do
+  #use_frameworks!
+    inherit! :search_paths
+  rn_path = '../node_modules/react-native'
+  pod 'yoga', path: "#{rn_path}/ReactCommon/yoga/yoga.podspec"
+  pod 'React', path: rn_path, subspecs: [
+    'Core',
+    'RCTActionSheet',
+    'RCTAnimation',
+    'RCTGeolocation',
+    'RCTImage',
+    'RCTLinkingIOS',
+    'RCTNetwork',
+    'RCTSettings',
+    'RCTText',
+    'RCTVibration',
+    'RCTWebSocket',
+    'RCTPushNotification',
+    'DevSupport'
+  ]
+  pod 'MapManagerLocation','0.0.10'
+
+end
+
