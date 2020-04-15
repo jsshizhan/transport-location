@@ -1,6 +1,6 @@
 {
   "name": "transport-location",
-  "version": "0.0.2",
+  "version": "0.0.4-4",
   "description": "部网络货运信息交互系统位置信息上报",
   "main": "index.js",
   "scripts": {
@@ -19,9 +19,5 @@
   "bugs": {
     "url": "https://github.com/jsshizhan/transport-location/issues"
   },
-  "homepage": "https://github.com/jsshizhan/transport-location#readme",
-  "devDependencies": {
-    "react": "16.3.1",
-    "react-native": "0.55.4"
-  }
+  "homepage": "https://github.com/jsshizhan/transport-location#readme"
 }

@@ -22,7 +22,7 @@ MapService *mapService;
     return self;
 }
 
-RCT_EXPORT_MODULE();
+RCT_EXPORT_MODULE(TransportLocation);
 
 RCT_EXPORT_METHOD(init:(NSString *)appId
                   appSecurity:(NSString *)appSecurity
